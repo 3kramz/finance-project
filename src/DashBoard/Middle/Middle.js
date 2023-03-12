@@ -50,7 +50,7 @@ const Middle = () => {
 
                             <div className='chart3 p-8'>
                                 <h1 className='text-white text-center'>Monday, 28 December 2021</h1>
-                                <Chart />
+                                {/* <Chart /> */}
                             </div>
 
                         </div>
@@ -60,9 +60,10 @@ const Middle = () => {
                             <div className='chart3 p-8'>
                                 <h1 className='text-white text-center'>Your Finance Target</h1>
                                 <div className='mt-[24px] flex justify-center'>
-                                    <div style={{ width: 124, height: 124 }}>
+                                    {/* <div style={{ width: 124, height: 124 }}>
                                         <CircularProgressbar value={percentage2} text={`${percentage2}%`} />
-                                    </div>
+                                    </div> */}
+                                    <Chart />
                                 </div>
 
                                 <div className='flex items-center justify-between'>
@@ -79,7 +80,6 @@ const Middle = () => {
                                             <img className='mt-1' src={icon7} alt="" />
                                             <h1 className='text-white font-[12px]'>In The Process</h1>
                                         </div>
-
 
                                     </div>
 

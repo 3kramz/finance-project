@@ -20,7 +20,7 @@ const Nav = () => {
                     
                 </div>
 
-                <div className='relative bg-[#272D35] w-[92px] h-[72px] flex justify-center items-center rounded-[20px]'>
+                <div className='text-white relative bg-[#272D35] w-[92px] h-[72px] flex justify-center items-center rounded-[20px]'>
                     <img src={Notification} alt='' className='w-[25px] absulute' />
                     <div className='absolute top-[10px] right-[25px] w-[24px] h-[24px] bg-[#6F4CA4] rounded-full flex justify-center items-center'>8</div>
 

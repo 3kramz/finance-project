@@ -2,7 +2,9 @@ import Dashboard from "./DashBoard/Dashboard";
 
 function App() {
   return (
-   <Dashboard />
+    <div>
+      <Dashboard />
+    </div>
   );
 }
 

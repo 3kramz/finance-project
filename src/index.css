@@ -5,6 +5,14 @@
 .app{
     font-family: 'Poppins', sans-serif;
 }
+.full-bg {
+  background-image: url("Icons/Rectangle\ 225.png"), url("Icons/Rectangle\ 226.png");
+  /* background-image: url("Icons/Rectangle\ 226.png"); */
+  background-repeat: no-repeat;
+  background-color: #272D35;
+  background-position: center center;
+  background-size: cover;
+}
 
 .card1 {
     width: 389px;
