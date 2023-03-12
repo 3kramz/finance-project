@@ -1,0 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.app{
+    font-family: 'Poppins', sans-serif;
+}
+
+.card1 {
+    width: 389px;
+    height: 152px;
+    background: linear-gradient(95.04deg, #52449B 15.04%, #7D12AF 89.27%);
+    box-shadow: 4px 24px 45px rgba(111, 76, 164, 0.16);
+    border-radius: 20px;
+  }
+  
+  .card2 {
+    width: 389px;
+    height: 152px;
+    background: linear-gradient(279.13deg, #F362EE -9.54%, #8B28BA 151.3%);
+    box-shadow: 4px 24px 45px rgba(111, 76, 164, 0.16);
+    border-radius: 20px;
+  }
+  .chart3 {
+    width: 389px;
+    height: 331px;
+  
+    background: #272D35;
+    border-radius: 20px;
+  }
